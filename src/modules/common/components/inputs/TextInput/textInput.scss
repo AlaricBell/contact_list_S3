@@ -1,0 +1,28 @@
+@import "../input.scss";
+
+.input {
+	&-text {
+		font-size: $text-size-paragraph-1;
+		color: $color-text-100;
+		background-color: $color-grey-80;
+		border-radius: 8px;
+		width: 100%;
+		border: 1px solid $color-grey-60;
+		padding: 8px 12px;
+		margin: 8px 0;
+
+		&::placeholder {
+			color: $color-text-32;
+		}
+
+		&:hover {
+			border: 1px solid $color-grey-30;
+		}
+
+		&:active,
+		&:focus {
+			border: 1px solid $color-grey-10;
+			background-color: $color-grey-60;
+		}
+	}
+}

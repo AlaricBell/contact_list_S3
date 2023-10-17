@@ -1,0 +1,68 @@
+@import "./utils/variables";
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	min-height: 100vh;
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: $color-grey-100;
+	color: $color-text-100;
+}
+
+ul,
+ol {
+	padding: 0;
+	list-style: none;
+	margin: 0;
+}
+
+a {
+	border: none;
+	text-decoration: none;
+}
+
+input,
+select,
+option,
+textarea {
+	border: none;
+	outline: none;
+}
+
+button {
+	border: none;
+	outline: none;
+}
+
+h1 {
+	font-size: $text-size-header-1;
+	font-weight: $text-weight-medium;
+	letter-spacing: $letter-space-0;
+}
+
+h2 {
+	font-size: $text-size-header-2;
+	font-weight: $text-weight-medium;
+	letter-spacing: $letter-space-0;
+}
+
+h3 {
+	font-size: $text-size-header-3;
+	font-weight: $text-weight-regular;
+	letter-spacing: $letter-space-1;
+}
+
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}

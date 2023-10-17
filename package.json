@@ -1,0 +1,41 @@
+{
+	"name": "contactlist",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"generate": "prisma generate",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"postinstall": "npm run generate"
+	},
+	"dependencies": {
+		"@aws-sdk/client-config-service": "^3.425.0",
+		"@aws-sdk/client-s3": "^3.425.0",
+		"@prisma/client": "^5.3.1",
+		"@uidotdev/usehooks": "^2.3.1",
+		"classnames": "^2.3.2",
+		"framer-motion": "^10.16.4",
+		"immer": "^10.0.3",
+		"multer": "^1.4.5-lts.1",
+		"next": "latest",
+		"react": "latest",
+		"react-dom": "latest",
+		"react-query": "^3.39.3",
+		"sass": "^1.68.0",
+		"uuid": "^9.0.1",
+		"zustand": "^4.4.2"
+	},
+	"devDependencies": {
+		"@types/multer": "^1.4.8",
+		"@types/node": "latest",
+		"@types/react": "latest",
+		"@types/react-dom": "latest",
+		"@types/uuid": "^9.0.4",
+		"eslint": "latest",
+		"eslint-config-next": "latest",
+		"prisma": "^5.3.1",
+		"typescript": "latest"
+	}
+}

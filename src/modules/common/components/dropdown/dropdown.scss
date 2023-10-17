@@ -1,0 +1,58 @@
+@import "../../../common/styles/utils/variables.scss";
+
+.dropdown {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: $color-grey-80;
+	border: 1px solid $color-grey-70;
+	border-radius: 12px;
+	margin: 16px 0;
+	position: absolute;
+	top: 16px;
+	left: 0;
+	right: auto;
+	z-index: 10;
+
+	@media (max-width: 1150px) {
+		right: 0;
+		left: auto;
+	}
+
+	&-option {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 219px;
+		min-height: 44px;
+		padding: 12px 10px;
+		margin: 0;
+		background-color: $color-grey-80;
+
+		&:hover {
+			background-color: $color-grey-70;
+		}
+
+		&:active {
+			background-color: $color-grey-60;
+		}
+
+		&:first-of-type {
+			border-top-right-radius: 12px;
+			border-top-left-radius: 12px;
+		}
+
+		&:last-of-type {
+			border-bottom-right-radius: 12px;
+			border-bottom-left-radius: 12px;
+		}
+	}
+
+	&-icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 8px;
+	}
+}

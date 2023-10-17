@@ -1,0 +1,13 @@
+@import "../../modules/common/styles/utils/variables.scss";
+
+#contacts {
+	display: flex;
+}
+
+.contacts {
+	border-left: 1px solid $color-grey-60;
+	border-right: 1px solid $color-grey-60;
+	min-height: 100vh;
+	padding-top: 96px;
+	flex-grow: 2;
+}

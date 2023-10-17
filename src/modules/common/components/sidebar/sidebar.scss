@@ -1,0 +1,25 @@
+@import "../../styles/utils/variables.scss";
+
+.sidebar {
+	flex-grow: 1;
+	padding-top: 96px;
+
+	&-actions {
+		display: flex;
+		align-items: center;
+		border-top: 1px solid $color-grey-60;
+		border-bottom: 1px solid $color-grey-60;
+		padding: 0 16px;
+		margin: 0;
+		width: 100%;
+		height: 78px;
+	}
+
+	&-left {
+		justify-content: flex-end;
+	}
+
+	&-right {
+		justify-content: flex-start;
+	}
+}

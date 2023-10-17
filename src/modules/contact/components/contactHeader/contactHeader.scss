@@ -1,0 +1,43 @@
+@import "../../../../modules/common/styles/utils/variables.scss";
+
+.contacts {
+	&-header {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		border-top: 1px solid $color-grey-60;
+		border-bottom: 1px solid $color-grey-60;
+		padding: 0 16px;
+		margin: 0;
+		width: 100%;
+		height: 78px;
+
+		@media (min-width: 567px) {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
+		&-title {
+			@media (max-width: 567px) {
+				font-size: $text-size-header-2;
+			}
+		}
+
+		&-actions {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+		}
+
+		&-action {
+			margin: 0 16px;
+			cursor: pointer;
+
+			&:last-of-type {
+				margin-left: 16px;
+				margin-right: 0;
+			}
+		}
+	}
+}

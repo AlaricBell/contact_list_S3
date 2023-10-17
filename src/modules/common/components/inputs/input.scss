@@ -1,0 +1,18 @@
+@import "../../styles/utils/variables.scss";
+
+.input {
+	&-group {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: center;
+		margin: 16px 0;
+	}
+	&-label {
+		font-size: $text-size-paragraph-2;
+		line-height: $text-line-height-5;
+		letter-spacing: $letter-space-1;
+		font-weight: $text-weight-regular;
+		color: $color-text-56;
+	}
+}
